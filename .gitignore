@@ -1,14 +1,43 @@
-# 此为注释 – 将被 Git 忽略
-# 忽略所有 .a 结尾的文件
-*.a
-# 但 lib.a 除外
-!lib.a
-# 仅仅忽略项目根目录下的 TODO 文件
-# 不包括 subdir/TODO
-/TODO
-# 忽略 build/ 目录下的所有文件
-build/
-# 忽略 doc 目录下的所有 .txt 文件
-# 会忽略 doc/notes.txt 
-# 但不包括 doc/server/arch.txt
-doc/*.txt
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
